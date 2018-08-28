@@ -7,7 +7,7 @@ import org.litepal.crud.DataSupport;
  */
 
 public class Province extends DataSupport{
-   //字段
+   //每个实体类都应该有的字段
     private int id;
     //省的名字
     private String provinceName;

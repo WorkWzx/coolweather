@@ -18,6 +18,14 @@ public class County extends DataSupport {
     //记录县对应天气的ID
     private String weatherId;
 
+    public String getWeatherId() {
+        return weatherId;
+    }
+
+    public void setWeatherId(String weatherId) {
+        this.weatherId = weatherId;
+    }
+
     public int getId() {
         return id;
     }
